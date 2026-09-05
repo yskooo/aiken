@@ -16,5 +16,14 @@
     "start": "2026-09-10T23:59:00.000Z",
     "end": "2026-09-11T00:00:00.000Z",
     "sourcePlatform": "google_calendar"
+  },
+  {
+    "id": "evt_3",
+    "userId": "user_1",
+    "title": "Study Group: Algorithms",
+    "type": "meeting",
+    "start": "2026-09-08T17:00:00.000Z",
+    "end": "2026-09-08T18:00:00.000Z",
+    "sourcePlatform": "google_calendar"
   }
 ]
