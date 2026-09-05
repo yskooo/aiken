@@ -1,0 +1,20 @@
+[
+  {
+    "id": "evt_1",
+    "userId": "user_1",
+    "title": "Intro to Algorithms - Lecture",
+    "type": "class",
+    "start": "2026-09-07T09:00:00.000Z",
+    "end": "2026-09-07T10:15:00.000Z",
+    "sourcePlatform": "canvas"
+  },
+  {
+    "id": "evt_2",
+    "userId": "user_1",
+    "title": "Midterm: Linear Algebra",
+    "type": "deadline",
+    "start": "2026-09-10T23:59:00.000Z",
+    "end": "2026-09-11T00:00:00.000Z",
+    "sourcePlatform": "google_calendar"
+  }
+]
