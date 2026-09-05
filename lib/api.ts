@@ -1,0 +1,8 @@
+import axios from 'axios';
+
+const BASE = process.env.AIKEN_API_URL || 'http://localhost:3000';
+
+export const api = axios.create({
+  baseURL: BASE + '/api/v1',
+  timeout: 5000
+});

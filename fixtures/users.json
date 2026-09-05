@@ -1,0 +1,8 @@
+[
+  {
+    "id": "user_1",
+    "name": "Demo Student",
+    "email": "student@example.com",
+    "timezone": "UTC"
+  }
+]
