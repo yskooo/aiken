@@ -5,5 +5,20 @@
     "kind": "pomodoro",
     "startedAt": "2026-09-05T09:00:00.000Z",
     "createdAt": "2026-09-05T09:00:00.000Z"
+  },
+  {
+    "id": "sess_2",
+    "userId": "user_1",
+    "kind": "deep_work",
+    "start": "2026-09-06T10:00:00.000Z",
+    "end": "2026-09-06T11:00:00.000Z",
+    "createdAt": "2026-09-06T10:00:00.000Z"
+  },
+  {
+    "id": "sess_3",
+    "userId": "user_1",
+    "kind": "pomodoro",
+    "startedAt": "2026-09-07T14:00:00.000Z",
+    "createdAt": "2026-09-07T14:00:00.000Z"
   }
 ]
