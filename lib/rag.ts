@@ -1,6 +1,9 @@
-// Lightweight RAG helper stub. Phase 3b will wire this to a VectorStore.
+import axios from 'axios';
 
-export async function queryDocuments(_query: string) {
-  // returns an array of { doc: string, quote: string, score: number }
-  return [];
+const BASE = process.env.AIKEN_API_URL || 'http://localhost:3000';
+export const api = axios.create({ baseURL: BASE + '/api/v1', timeout: 5000 });
+
+export async function queryDocuments(q: string) {
+  const res = await api.post('/docs/query', { q });
+  return res.data.hits as { doc: string; quote: string; score: number }[];
 }

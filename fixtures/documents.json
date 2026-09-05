@@ -1,0 +1,9 @@
+[
+  {
+    "id": "doc_1",
+    "filename": "student-handbook-sample.txt",
+    "text": "Attendance is required for all lectures. Late submissions receive a penalty of 10% per day unless excused. Academic integrity violations may result in failure. For medical leaves, submit documentation to Student Services.",
+    "userId": "user_1",
+    "uploadedAt": "2026-09-05T00:00:00.000Z"
+  }
+]
